@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape>
+            <solid android:color="#01000000"  />
+            <size android:width="50dp" android:height="50dp" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/inner_circle_fill"
+        android:gravity="center">
+        <vector
+            android:width="16dp"
+            android:height="16dp"
+            android:viewportWidth="10"
+            android:viewportHeight="10">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M1.33889 3.39212C2.22717 1.36944
+     4.58697 0.449816 6.60965 1.33809C8.63234 2.22637 9.55196 4.58617
+     8.66369 6.60886C7.77541 8.63154 5.41561 9.55117 3.39293
+     8.66289C1.37024 7.77461 0.450616 5.41481 1.33889 3.39212Z" />
+        </vector>
+    </item>
+
+    <item android:gravity="center">
+        <vector
+            android:width="16dp"
+            android:height="16dp"
+            android:viewportWidth="10"
+            android:viewportHeight="10">
+            <path
+                android:fillColor="#00000000"
+                android:pathData="M1.33889 3.39212C2.22717 1.36944
+     4.58697 0.449816 6.60965 1.33809C8.63234 2.22637 9.55196 4.58617
+     8.66369 6.60886C7.77541 8.63154 5.41561 9.55117 3.39293
+     8.66289C1.37024 7.77461 0.450616 5.41481 1.33889 3.39212Z"
+                android:strokeWidth="2"
+                android:strokeColor="#FFFFFF" />
+        </vector>
+    </item>
+
+</layer-list>

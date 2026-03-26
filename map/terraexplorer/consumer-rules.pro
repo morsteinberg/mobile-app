@@ -1,0 +1,2 @@
+-keep class com.skyline.** { *; }
+-dontwarn java.time.DesugarLocalDate
